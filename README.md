@@ -1,6 +1,6 @@
 # AWS AMPLIFY GUIDE
 
-# CLI
+## CLI
 Install CLI `$ npm i -g @aws-amplify/cli`
 
 Configure amplify with AWS account `$ amplify configure`
@@ -27,6 +27,20 @@ Create backend API `$ amplify add api`
 - Choose authorization type
 - Complete accordingly
 - Create schema
+
+Upload changes to the cloud `$ amplify push`
+
+- Generate code for GraphQL API
+- Choose language target
+- Complete accordingly
+
+*Note: in case of error due to node version 8, change the runtime to nodejs12.x in amplify-react-cloudformation-template.yaml
+
+## React
+
+Create new project `npx create-react-app [project]` or with yarn `yarn create react-app [project]`
+
+Install these dependencies `npm i aws-amplify aws-amplify-react`
 
 
 
