@@ -36,6 +36,8 @@ Upload changes to the cloud `$ amplify push`
 
 *Note: in case of error due to node version 8, change the runtime to nodejs12.x in amplify-react-cloudformation-template.yaml
 
+Open amplify console `$ amplify console`
+
 ## React
 
 Create new project `npx create-react-app [project]` or with yarn `yarn create react-app [project]`
