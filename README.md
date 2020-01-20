@@ -38,6 +38,15 @@ Upload changes to the cloud `$ amplify push`
 
 Open amplify console `$ amplify console`
 
+Upload project to S3 `$ amplify add hosting`
+
+- Choose between DEV (http) or PROD (cloudfront and https)
+- Set bucket name
+- Complete accordingly
+- Upload changes to cloud `$ amplify push`
+
+Get status of current amplify project `$ amplify status`
+
 ## React
 
 Create new project `npx create-react-app [project]` or with yarn `yarn create react-app [project]`
